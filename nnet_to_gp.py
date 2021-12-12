@@ -106,7 +106,7 @@ if __name__ == '__main__':
         plt.imshow(samps[np.random.choice(range(batch_size)), :].reshape(28, 28))
 
     #################################
-    # gplvm approx
+    # gp approx
 
     # Set activation to relu in activation.py to match the nnet.
 
